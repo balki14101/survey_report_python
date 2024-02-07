@@ -1,0 +1,271 @@
+{
+    "header_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 20
+    },
+    "header_cell": {
+        "w": 200,
+        "h": 40,
+        "txt": "Survey Report",
+        "border": 0,
+        "ln": 2,
+        "align": "C"
+    },
+    "logo_image": {
+        "name": "logo.png",
+        "x": 10,
+        "y": 10,
+        "w": 30
+    },
+    "line": {
+        "x1": 10,
+        "y1": 40,
+        "x2": 200,
+        "y2": 40
+    },
+    "userDetails": {
+        "family": "Arial",
+        "style": "",
+        "size": 12
+    },
+    "username_title": {
+        "w": 200,
+        "h": 10,
+        "txt": "Person Name : ",
+        "border": 0,
+        "ln": 1
+    },
+    "username_value": {
+        "w": 200,
+        "h": 10,
+        "txt": "Rohit",
+        "border": 0,
+        "ln": 1
+    },
+    "survey_title": {
+        "w": 200,
+        "h": 10,
+        "txt": "Survey Title : ",
+        "border": 0,
+        "ln": 1
+    },
+    "survey_value": {
+        "w": 200,
+        "h": 10,
+        "txt": "Mental Health",
+        "border": 0,
+        "ln": 1
+    },
+    "date_title": {
+        "w": 200,
+        "h": 10,
+        "txt": "Date : ",
+        "border": 0,
+        "ln": 1
+    },
+    "date_value": {
+        "w": 200,
+        "h": 10,
+        "txt": "30/01/2024",
+        "border": 0,
+        "ln": 1
+    },
+    "about_survey_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 14
+    },
+    "about_survey_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "About this Survey",
+        "border": 0,
+        "ln": 2
+    },
+    "about_survey_content": {
+        "family": "Arial",
+        "style": "",
+        "size": 12
+    },
+    "about_survey_content_multi_cell": {
+        "w": 0,
+        "h": 6,
+        "txt": "A psychology survey is a research tool used to gather information about various psychological phenomena, attitudes, behaviors, or experiences of individuals. These surveys are designed to explore a wide range of topics within psychology, including personality traits, mental health issues, cognitive processes, social interactions, and more.\n\nTypically, psychology surveys consist of a series of rating scales or open-ended questions. The questions are often crafted to address specific research objectives and hypotheses, and they may cover various aspects of the human mind and behavior."
+    },
+    "accurate_survey_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 14
+    },
+    "accurate_survey_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "About this Survey",
+        "border": 0,
+        "ln": 2
+    },
+    "accurate_survey_content": {
+        "family": "Arial",
+        "style": "",
+        "size": 12
+    },
+    "accurate_survey_content_multi_cell": {
+        "w": 0,
+        "h": 6,
+        "txt": "Claiming 100% accuracy for any survey is unrealistic. While surveys aim for accuracy, inherent limitations such as response bias or sampling errors prevent absolute certainty. Acknowledging these limitations fosters transparency and credibility in research. Thus, while striving for accuracy, claiming 100% accuracy is not feasible."
+    },
+    "score_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 14
+    },
+    "score_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Score: 75.0",
+        "border": 0,
+        "ln": 2
+    },
+    "level_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Level: severe",
+        "border": 0,
+        "ln": 2
+    },
+    "range_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 12
+    },
+    "range_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Range ",
+        "border": 0,
+        "ln": 2
+    },
+    "range_content": {
+        "family": "Arial",
+        "style": "",
+        "size": 10
+    },
+    "range_cell_1": {
+        "w": 40,
+        "h": 10,
+        "txt": "Normal (0-30)",
+        "border": 1,
+        "ln": 0
+    },
+    "range_cell_2": {
+        "w": 40,
+        "h": 10,
+        "txt": "Moderate (31-70)",
+        "border": 1,
+        "ln": 0
+    },
+    "range_cell_3": {
+        "w": 40,
+        "h": 10,
+        "txt": "Severe (70-100)",
+        "border": 1,
+        "ln": 0
+    },
+    "analysis_title": {
+        "family": "Arial",
+        "style": "",
+        "size": 14
+    },
+    "analysis_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Analysis ",
+        "border": 0,
+        "ln": 2
+    },
+    "domain_analysis_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 12
+    },
+    "domain_analysis_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Domain Analysis ",
+        "border": 0,
+        "ln": 2
+    },
+    "domain_image": {
+        "name": "domain_barchart.png",
+        "x": 10,
+        "y": "None",
+        "w": 100
+    },
+    "subdomain_analysis_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 12
+    },
+    "subdomain_analysis_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Sub-Domain Analysis ",
+        "border": 0,
+        "ln": 2
+    },
+    "subdomain_image": {
+        "name": "domain_barchart.png",
+        "x": 10,
+        "y": "None",
+        "w": 100
+    },
+    "report_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 12
+    },
+    "report_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Report ",
+        "border": 0,
+        "ln": 2
+    },
+    "report_content_font": {
+        "family": "Arial",
+        "style": "",
+        "size": 12
+    },
+    "report_content_cell": {
+        "w": 200,
+        "h": 12,
+        "ln": 2
+    },
+    "report_content_multi_cell": {
+        "w": 0,
+        "h": 0
+    },
+    "recommandation_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 12
+    },
+    "recommendation_title_cell": {
+        "w": 200,
+        "h": 10,
+        "txt": "Recommendation ",
+        "border": 0,
+        "ln": 2
+    },
+    "recommendation_content": {
+        "family": "Arial",
+        "style": "",
+        "size": 12
+    },
+    "recommendation_content_multi_cell": {
+        "w": 0,
+        "h": 6,
+        "txt": "Maintaining a balanced lifestyle, seeking support from loved ones, and practicing mindfulness techniques can significantly contribute to mental well-being. Additionally, regular physical activity and seeking professional help when needed are essential steps towards maintaining a healthy mind. "
+    }
+}
