@@ -21,13 +21,13 @@
             "y": 10,
             "w": 30
         },
-        "domain": {
+    "domain": {
             "source": "domain_barchart.png",
             "x": 10,
             "y": "None",
             "w": 100
         },
-        "subdomain": {
+    "subdomain": {
             "source": "subdomain_barchart.png",
             "x": 10,
             "y": "None",

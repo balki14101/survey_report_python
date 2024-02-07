@@ -6,20 +6,11 @@ import matplotlib.pyplot as plt
 with open('data.json') as file:
     read_data = json.load(file)
 
+# Read user details JSON
 user_details = read_data["personalDetails"]
 
-# Parse JSON string into Python dictionary
-# data = json.loads(response)
+# Read Response JSON
 data = read_data["response"]
-
-# Findoverall percentage
-total_score = sum(question["Score"] for question in data["Question"])
-max_possible_score = len(data["Question"])  # Assuming maximum score of 1
-total_percentage = (total_score / max_possible_score) * 100
-print("Total Percentage:", total_percentage)
-
-
-
 
 # Find unique domain names
 domain_names = set()
@@ -44,9 +35,9 @@ for domain_name in domain_names:
     percentage = (correct_answers / total_questions) * 100
     domain_with_percentages[domain_name] = percentage
 domain_percentages = list(domain_with_percentages.values())
+
 #overall score
 overall_score = sum(domain_percentages) / len(domain_percentages)
-
 
 
 # Calculate subdomain percentages
@@ -61,27 +52,27 @@ for subdomain_name in sub_domain_names:
 subdomain_percentages = list(sub_domain_with_percentages.values())
 
 
-#Generating bar-chart
+# Generating bar-chart
 domain_categories = list(domain_with_percentages.keys())
 domain_values = list(domain_with_percentages.values())
-print("Keys:", domain_categories,domain_values)
 
+fig, ax = plt.subplots(figsize=(10, 5))
 
-fig, ax = plt.subplots(figsize=(10,5))  # Adjust the figure size as needed
-
+# Adjusting the figure size as needed
 ax.barh(domain_categories, domain_values, height=0.35, label='Score', color='green')
 
-
-# Add labels and legend
+# Adding labels and legend
 ax.set_xlabel('Values')
 ax.set_title('Domain - Analysis')
 ax.legend()
 
-ax.set_xlim(0, 100)
+# Setting the x-axis limit with extra space on the right end
+ax.set_xlim(0, max(domain_values) + 10)  # Adjust 10 as needed for the desired space
 
-# plot
-# Rotate y-axis labels
-plt.yticks(rotation=45, ha='right')  # Rotate labels 45 degrees
+# Rotating y-axis labels
+plt.yticks(rotation=45, ha='right')
+
+# Saving the plot
 plt.savefig("domain_barchart.png")
 plt.close()
 
@@ -92,7 +83,7 @@ print("Keys:", subdomain_categories,subdomain_values)
 
 fig, ax = plt.subplots(figsize=(10,5))  # Adjust the figure size as needed
 
-ax.barh(subdomain_categories, subdomain_values, height=0.35, label='Stack 1', color='green')
+ax.barh(subdomain_categories, subdomain_values, height=0.35, label='Score', color='green')
 
 
 # Add labels and legend
@@ -113,7 +104,7 @@ plt.close()
 all_category = {**domain_with_percentages,**sub_domain_with_percentages}   
 print(all_category) 
 
-# Parse JSON string into Python dictionary
+# Read Recommendation JSON
 recommendation_data = read_data["recommendation"]
 
 for i in recommendation_data["overall"]:

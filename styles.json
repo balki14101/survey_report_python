@@ -1,4 +1,9 @@
 {
+    "header_title": {
+        "family": "Arial",
+        "style": "B",
+        "size": 30
+    },
     "font": {
         "arial": "Arial"
     },
