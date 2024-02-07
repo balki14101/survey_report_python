@@ -1,0 +1,44 @@
+{
+    "font": {
+        "arial": "Arial"
+    },
+    "weight": {
+        "bold": "B"
+    },
+    "fontsize": {
+        "small": 10,
+        "normal": 12,
+        "medium": 14,
+        "large": 16
+    },
+    "width": {
+        "zero": 0,
+        "small": 40,
+        "large": 200
+    },
+    "height": {
+        "medium": 10,
+        "large": 40,
+        "small": 6,
+        "regular":6
+    },
+    "border":{
+        "none":0,
+        "thin":1
+    },
+    "position":{
+        "same":0,
+        "next":1,
+        "begin":2
+    },
+    "align": {
+        "center": "C"
+    },
+    "line":{
+        "x1":10,
+        "y1":40,
+        "x2":200,
+        "y2":40
+        }
+
+}

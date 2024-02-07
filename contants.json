@@ -1,0 +1,37 @@
+{
+    "header_title": "Survey Report",
+    "about_title": "About this Survey",
+    "about_survey_content1": "A psychology survey is a research tool used to gather information about various psychological phenomena, attitudes, behaviors, or experiences of individuals. These surveys are designed to explore a wide range of topics within psychology, including personality traits, mental health issues, cognitive processes, social interactions, and more.",
+    "about_survey_content2":"Typically, psychology surveys consist of a series of rating scales or open-ended questions. The questions are often crafted to address specific research objectives and hypotheses, and they may cover various aspects of the human mind and behavior.",
+    "accurate_title": "Is this survey accurate?",
+    "accurate_content": "Claiming 100% accuracy for any survey is unrealistic. While surveys aim for accuracy, inherent limitations such as response bias or sampling errors prevent absolute certainty. Acknowledging these limitations fosters transparency and credibility in research. Thus, while striving for accuracy, claiming 100% accuracy is not feasible.",
+    "score": "Score",
+    "level": "Level",
+    "range": "Range",
+    "analysis": "Analysis",
+    "domainAnalysis": "Domain Analysis",
+    "subdomainAnalysis": "Sub-Domain Analysis",
+    "report":"Report",
+    "recommendation": "Recommendation",
+    "recommendation_content":"Maintaining a balanced lifestyle, seeking support from loved ones, and practicing mindfulness techniques can significantly contribute to mental well-being. Additionally, regular physical activity and seeking professional help when needed are essential steps towards maintaining a healthy mind.",
+ 
+    "logo": {
+            "source": "logo.png",
+            "x": 10,
+            "y": 10,
+            "w": 30
+        },
+        "domain": {
+            "source": "domain_barchart.png",
+            "x": 10,
+            "y": "None",
+            "w": 100
+        },
+        "subdomain": {
+            "source": "subdomain_barchart.png",
+            "x": 10,
+            "y": "None",
+            "w": 100
+        }
+    
+}

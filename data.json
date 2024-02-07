@@ -1,0 +1,101 @@
+{
+    "personalDetails": {
+        "PersonId": "P1",
+        "Name": "Rohit",
+        "Age": 20
+    },
+    "response": {
+        "PersonId": "P1",
+        "Name": "Rohit",
+        "CompSurveyID": "CS001",
+        "SurveyName": "Mental Health",
+        "Date": "30/01/2024",
+        "Question": [
+            {
+                "QuestionID": "QN001",
+                "SurveyQuestionNo": "1",
+                "Score": 1,
+                "Layer": "L1",
+                "Domain": "Anxiety",
+                "Subdomain": "Worrying",
+                "Section": "Section1"
+            },
+            {
+                "QuestionID": "QN002",
+                "SurveyQuestionNo": "2",
+                "Score": 1,
+                "Layer": "L1",
+                "Domain": "Anxiety",
+                "Subdomain": "Muscular Tension",
+                "Section": "Section1"
+            },
+            {
+                "QuestionID": "QN003",
+                "SurveyQuestionNo": "2",
+                "Score": 1,
+                "Layer": "L1",
+                "Domain": "Depression",
+                "Subdomain": "Self Confidence",
+                "Section": "Section1"
+            },
+            {
+                "QuestionID": "QN004",
+                "SurveyQuestionNo": "2",
+                "Score": 0,
+                "Layer": "L1",
+                "Domain": "Depression",
+                "Subdomain": "Self Confidence",
+                "Section": "Section1"
+            }
+        ]
+    },
+    "recommendation": {
+        "overall":[{
+            "Range": "0-30%",
+            "Rating": "normal"
+        },{
+            "Range": "30-70%",
+            "Rating": "moderate"
+        },{
+            "Range": "70-100%",
+            "Rating": "severe"
+        }],
+        "scale": [
+            {
+                "LevelName": "Anxiety",
+                "Range": "0%",
+                "Rating": "nothing"
+            },
+            {
+                "LevelName": "Anxiety",
+                "Range": "0-25%",
+                "Rating": "normal"
+            },
+            {
+                "LevelName": "Anxiety",
+                "Range": "25-50%",
+                "Rating": "moderate"
+            },
+            {
+                "LevelName": "Anxiety",
+                "Range": "50-75%",
+                "Rating": "slightly-severe"
+            },
+            {
+                "LevelName": "Anxiety",
+                "Range": "75-100%",
+                "Rating": "severe"
+            },
+            {
+                "LevelName": "Muscular Tension",
+                "Range": ">63%",
+                "Rating": "high"
+            },
+            {
+                "LevelName": "Self Confidence",
+                "Range": ">63%",
+                "Rating": "high"
+            }
+        ]
+    }
+}
