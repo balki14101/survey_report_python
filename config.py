@@ -24,12 +24,6 @@ def get_font_style(config_data, style_name):
     print("from function",config_data.get(style_name, {}))
     return config_data.get(style_name, {})  
 
-
-# def get_data_from_dynamic_component_json(json_file_path):
-#     with open(json_file_path, 'r') as f:
-#         data = json.load(f)
-#         return data.get('personalDetails', {}).get('Name', '')
-
 #combaining static and dynamic values
 def combaining_static_dynamic_data(static_text,dynamic_text):
     dynamic_score_text = str(dynamic_text)  # Convert to string if not already
@@ -39,9 +33,9 @@ def combaining_static_dynamic_data(static_text,dynamic_text):
 
 
 #dynamic data    
-username =   dynamic_config['response']['Name']
-surveyName =   dynamic_config["response"]["SurveyName"]
-date =   dynamic_config["response"]["Date"]
+username = combaining_static_dynamic_data("Person name: ",dynamic_config['response']['Name'])
+surveyName = combaining_static_dynamic_data("Survey Title: ",dynamic_config['response']['SurveyName'])
+date = combaining_static_dynamic_data("Date: ",dynamic_config['response']['Date'])
 
 insert_name_into_json('config_static_component.json',username,'username_value','txt')
 insert_name_into_json('config_static_component.json',surveyName,'survey_value','txt')
@@ -57,11 +51,13 @@ insert_name_into_json('config_static_component.json',level,'level_cell','txt')
 
 
 
+
 # Page:1
 header_title_style = get_font_style(static_config, 'header_title')
 header_cell = get_font_style(static_config,'header_cell')
 logo_image = get_font_style(static_config,'logo_image')
 line = get_font_style(static_config,'line')
+#user Details
 userDetails_style = get_font_style(static_config,'userDetails')
 username_title = get_font_style(static_config,'username_title')
 username_value = get_font_style(static_config,'username_value')
@@ -71,20 +67,24 @@ date_title = get_font_style(static_config,'date_title')
 date_value = get_font_style(static_config,'date_value')
 
 # Page:2
+#About Survey
 about_survey_title = get_font_style(static_config,'about_survey_title')
 about_survey_title_cell = get_font_style(static_config,'about_survey_title_cell')
 about_survey_content = get_font_style(static_config,'about_survey_content')
 about_survey_content_multi_cell = get_font_style(static_config,'about_survey_content_multi_cell')
+#Accurate Survey
 accurate_survey_title = get_font_style(static_config,'accurate_survey_title')
 accurate_survey_title_cell = get_font_style(static_config,'accurate_survey_title_cell')
 accurate_survey_content = get_font_style(static_config,'accurate_survey_content')
 accurate_survey_content_multi_cell = get_font_style(static_config,'accurate_survey_content_multi_cell')
 
 # Page:3
+#score
 score_title = get_font_style(static_config,'score_title')
 score_cell = get_font_style(static_config,'score_cell')
 level_cell = get_font_style(static_config,'level_cell')
 
+#range
 range_title = get_font_style(static_config,'range_title')
 range_title_cell = get_font_style(static_config,'range_title_cell')
 
@@ -93,6 +93,7 @@ range_cell_1 = get_font_style(static_config,'range_cell_1')
 range_cell_2 = get_font_style(static_config,'range_cell_2')
 range_cell_3 = get_font_style(static_config,'range_cell_3')
 
+#Analysis-Chart
 analysis_title = get_font_style(static_config,'analysis_title')
 analysis_title_cell = get_font_style(static_config,'analysis_title_cell')
 
@@ -103,28 +104,16 @@ domain_image = get_font_style(static_config,'domain_image')
 subdomain_analysis_title = get_font_style(static_config,'subdomain_analysis_title')
 subdomain_analysis_title_cell = get_font_style(static_config,'subdomain_analysis_title_cell')
 subdomain_image = get_font_style(static_config,'subdomain_image')
-# analysis_title_cell = get_font_style(static_config,'analysis_title_cell')
 
+#Report 
 report_title = get_font_style(static_config,'report_title')
 report_title_cell = get_font_style(static_config,'report_title_cell')
 report_content_font = get_font_style(static_config,'report_content_font')
 report_content_cell = get_font_style(static_config,'report_content_cell')
 report_content_multi_cell = get_font_style(static_config,'report_content_multi_cell')
 
+#Recommendation
 recommandation_title = get_font_style(static_config,'recommandation_title')
 recommendation_title_cell = get_font_style(static_config,'recommendation_title_cell')
 recommendation_content = get_font_style(static_config,'recommendation_content')
 recommendation_content_multi_cell = get_font_style(static_config,'recommendation_content_multi_cell')
-
-
-
-
-
-
-
-
-
-
-
-
-

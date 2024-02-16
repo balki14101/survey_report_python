@@ -39,7 +39,7 @@
     "username_value": {
         "w": 200,
         "h": 10,
-        "txt": "Rohit",
+        "txt": "Person name: Rohit",
         "border": 0,
         "ln": 1
     },
@@ -53,7 +53,7 @@
     "survey_value": {
         "w": 200,
         "h": 10,
-        "txt": "Mental Health",
+        "txt": "Survey Title: Mental Health",
         "border": 0,
         "ln": 1
     },
@@ -67,7 +67,7 @@
     "date_value": {
         "w": 200,
         "h": 10,
-        "txt": "30/01/2024",
+        "txt": "Date: 30/01/2024",
         "border": 0,
         "ln": 1
     },
@@ -199,7 +199,7 @@
     "domain_image": {
         "name": "domain_barchart.png",
         "x": 10,
-        "y": "None",
+        "y": null,
         "w": 100
     },
     "subdomain_analysis_title": {
@@ -215,9 +215,9 @@
         "ln": 2
     },
     "subdomain_image": {
-        "name": "domain_barchart.png",
+        "name": "subdomain_barchart.png",
         "x": 10,
-        "y": "None",
+        "y": null,
         "w": 100
     },
     "report_title": {
